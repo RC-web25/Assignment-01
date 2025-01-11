@@ -200,6 +200,7 @@ main {
     background-repeat: no-repeat;
     background-size: 60px;
     background-position: left top;
+    
 }
 
 .quote-text {
@@ -223,10 +224,10 @@ main {
 } 
 
 .news-container {
-    max-width: 800px;
+    width: 1280px;
     margin: 20px auto;
-    padding: 20px;
-    /* text-align: left; */
+    padding: 20px; 
+    text-align: left;
 }
 
 .news-header {
@@ -399,10 +400,18 @@ main {
 }
 
 .subscribe {
+    width: 1280px;
     margin-top: 30px;
     background-color: #e8f5e9;
     padding: 20px;
     border-radius: 8px;
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: center; */
+    padding: 80px 160px;
+    background-color: #dff2e1;
+    border-radius: 20px;
+    margin: 20px 160px;
 }
 
 .subscribe h2 {
