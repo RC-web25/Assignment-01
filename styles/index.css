@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 160px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav .sign {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav .sign:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Banner Section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 160px;
+    background-color: #dff2e1;
+    border-radius: 20px;
+    margin: 40px 160px;
+}
+
+.banner-content {
+    max-width: 600px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-button {
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.banner-button:hover {
+    background-color: #ae19db;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Vision section */
+.vision-title {
+    margin: 0 160px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.vision-para {
+    margin: 0 160px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* Main section */
+main {
+    /* background-color: #f0f0f0; */
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.container {
+    display: flex;
+    gap: 24px;
+}
+.card-1, .card-2, .card-3 {
+    padding: 32px;
+    border-radius: 10px;
+    width: 400px;
+    height: 325px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.card-2 {
+    background-color: rgb(198, 228, 214);
+}
+.card-3 {
+    background-color: rgb(247, 235, 207);
+}
+.card-1:hover, .card-2:hover, .card-3:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+.icon {
+    width: 62px;
+    height: 62px;
+    margin-bottom: 20px;
+}
+.card-1 h2, .card-2 h2, .card-3 h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.card-1 p, .card-2 p, .card-3 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.green-btn, .blue-btn, .yellow-btn {
+    width: 100px;
+    height: 32px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.green-btn {
+    background-color: rgb(0, 106, 80);
+}
+.blue-btn {
+    background-color: rgb(84, 144, 245);
+}
+.yellow-btn {
+    background-color: rgb(255, 194, 57);
+}
+.green-btn:hover, .blue-btn:hover, .yellow-btn:hover{
+    background-color: blue;
+}
+
+.quote-card {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 160px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 40px 160px;
+}
+
+.quote-background {
+    position: relative;
+    padding: 20px;
+    background-image: url('../B11A1--assignment-1-main/assets/quote-bg.png'); 
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: left top;
+}
+
+.quote-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.quote-position {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0 0;
+} 
+
+.news-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    /* text-align: left; */
+}
+
+.news-header {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.news-header h1 {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.news-header p {
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.news-item {
+    position: static;
+    width: auto;
+    height: 402px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.news-item img {
+    position: static;
+    width: 408px;
+    height: 306px;
+    margin: 32px 32px;
+    /* padding: 32px 0px; */
+    border-radius: 24px;
+}
+
+.news-content {
+    padding: 15px;
+}
+
+.news-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.news-source {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.news-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.news-read-more {
+    text-align: left;
+}
+
+.news-read-more a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600px;
+    color: #fff;
+    background-color: #28a745;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.news-read-more a:hover {
+    background-color: blueviolet;
+}
+
+
+}
+.donate-container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.donate-container h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.donate-description {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.donation-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.donation-options button {
+    width: 22%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: aqua;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.donation-options button:hover {
+    background-color: green;
+    
+}
+.donation-options:active{
+    background-color: #d31010;
+}
+
+.other-amount {
+    margin-bottom: 15px;
+}
+
+.other-amount input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.donate-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #388e3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.donate-button:hover {
+    background-color:blueviolet;
+}
+
+.subscribe {
+    margin-top: 30px;
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.subscribe h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subs-description {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.subscribe input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.subscribe button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #388e3c;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.subscribe button:hover {
+    background-color: blueviolet;
+}
