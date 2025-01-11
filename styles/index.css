@@ -403,8 +403,8 @@ main {
 }
 
 .subscribe {
-    width: 1280px;
-    margin-top: 30px;
+    width: 1260px;
+    /* margin-top: 30px; */
     background-color: #e8f5e9;
     padding: 20px;
     border-radius: 8px;
@@ -414,7 +414,7 @@ main {
     padding: 80px 160px;
     background-color: #dff2e1;
     border-radius: 20px;
-    margin: 20px 160px;
+    margin: 20px 135px;
 }
 
 .subscribe h2 {
